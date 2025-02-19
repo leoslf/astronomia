@@ -27,7 +27,7 @@ describe('#apsis', function () {
   /**
    * Test cases from p. 361.0
    */
-  it('perigee', function () {
+  describe('perigee', function () {
     const tests = [
       [1997, 12, 9 + 16.9 / 24, 1997.93],
       [1998, 1, 3 + 8.5 / 24, 1998.01],

@@ -1,3 +1,4 @@
+export { default as data } from './data/index.js'
 export { default as angle } from './angle.js'
 export { default as apparent } from './apparent.js'
 export { default as apsis } from './apsis.js'

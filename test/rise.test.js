@@ -8,11 +8,11 @@ import {
   globe,
   julian,
   planetposition,
+  moonposition,
   sidereal,
-  sexagesimal as sexa
+  sexagesimal as sexa,
+  data
 } from '../src/index.js'
-import { parallax } from '../src/moonposition.js'
-import data from '../data/index.js'
 
 describe('#rise', function () {
   const coord = {
@@ -52,7 +52,7 @@ describe('#rise', function () {
     describe('stdh0Lunar()', function () {
       function test (name, distance, stdh0Deg) {
         it(name, function () {
-          const pi = parallax(distance) // horizontal parallax
+          const pi = moonposition.parallax(distance) // horizontal parallax
           assert.strictEqual(rise.stdh0Lunar(pi) * 180 / Math.PI, stdh0Deg)
         })
       }

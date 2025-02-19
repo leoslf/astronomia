@@ -3,9 +3,9 @@ import float from './support/float.js'
 import {
   planetposition,
   saturnring,
-  sexagesimal as sexa
+  sexagesimal as sexa,
+  data
 } from '../src/index.js'
-import data from '../data/index.js'
 
 describe('#saturnring', function () {
   const earth = new planetposition.Planet(data.earth)

@@ -12,7 +12,7 @@ const serialize = require('serialize-to-module')
 const julian = require('..').julian
 
 const attic = path.resolve(__dirname, '../attic')
-const outdir = path.resolve(__dirname, '../data')
+const outdir = path.resolve(__dirname, '../src/data')
 const config = {
   fileHist: path.resolve(attic, 'historic_deltat.data'),
   fileData: path.resolve(attic, 'deltat.data'),

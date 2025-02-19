@@ -1,5 +1,5 @@
 coverage/
-data/
+src/data/
 lib/
 tmp/
 es/

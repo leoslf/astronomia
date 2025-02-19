@@ -33,7 +33,7 @@
 
 import base from './base.js'
 import interp from './interpolation.js'
-import deltat from '../data/deltat.js'
+import deltat from './data/deltat.js'
 
 // avoids ciclic import { LeapYearGregorian } from './julian.js'
 function LeapYearGregorian (y) {

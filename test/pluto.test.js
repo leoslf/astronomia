@@ -1,7 +1,6 @@
 import assert from 'assert'
 import float from './support/float.js'
-import { planetposition, pluto, sexagesimal as sexa } from '../src/index.js'
-import data from '../data/index.js'
+import { planetposition, pluto, sexagesimal as sexa, data } from '../src/index.js'
 
 describe('#pluto', function () {
   it('heliocentric()', function () {

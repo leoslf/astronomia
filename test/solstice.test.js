@@ -5,8 +5,7 @@
 
 import assert from 'assert'
 import float from './support/float.js'
-import { julian, planetposition, solstice, sexagesimal as sexa } from '../src/index.js'
-import data from '../data/index.js'
+import { julian, planetposition, solstice, sexagesimal as sexa, data } from '../src/index.js'
 
 describe('#solstice', function () {
   it('Example June', function () {

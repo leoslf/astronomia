@@ -1,7 +1,6 @@
 import assert from 'assert'
 import float from './support/float.js'
-import { julian, jupitermoons, planetposition } from '../src/index.js'
-import data from '../data/index.js'
+import { julian, jupitermoons, planetposition, data } from '../src/index.js'
 
 describe('#jupitermoons', function () {
   describe('positions', function () {

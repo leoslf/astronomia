@@ -87,7 +87,7 @@ function deltat () {
 
 ## convert DeltaT data
 function deltat_conv () {
-  node $cwd/deltat.cjs > $cwd/../data/deltat.txt
+  node $cwd/deltat.cjs > $cwd/../src/data/deltat.txt
 }
 
 function help () {

@@ -11,7 +11,7 @@ const { VSOP } = require('../lib/vsop87.cjs')
 
 const config = {
   attic: path.resolve(__dirname, '../attic'),
-  dirname: path.resolve(__dirname, '../data')
+  dirname: path.resolve(__dirname, '../src/data')
 }
 
 // planet names in VSOP87 files

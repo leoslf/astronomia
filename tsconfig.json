@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "rootDir": "src",
+        "allowJs": true,
+        "declaration": true,
+        "declarationDir": "lib",
+        "declarationMap": true,
+        "emitDeclarationOnly": true
+    },
+    "typeAcquisition": {
+        "enable": true
+    },
+    "include": ["src"],
+    "exclude": ["**/node_modules/**/*"]
+}

@@ -16,7 +16,7 @@ const { pmod } = require('../lib/base.cjs')
 
 const config = {
   attic: path.resolve(__dirname, '../attic'),
-  dirname: path.resolve(__dirname, '../data')
+  dirname: path.resolve(__dirname, '../src/data')
 }
 
 const REGMAIN = /^MAIN PROBLEM\.\s+(LONGITUDE|LATITUDE|DISTANCE)\.\s+\d+/

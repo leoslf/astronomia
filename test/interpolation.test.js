@@ -201,7 +201,7 @@ describe('#interpolation', function () {
     assert.strictEqual(base.horner(1, ...p), -6) // result at x=1
   })
 
-  it('linear', function () {
+  describe('linear', function () {
     const t = [0.2, 0.4, 0.7, -1.5, 15]
     t.forEach(function (x) {
       it('' + x, function () {
