@@ -30,6 +30,7 @@
   "types": "./lib/index.d.ts",
   "scripts": {
     "all": "npm-run-all clean lint build test",
+    "prepare": "npm run build",
     "prebuild": "npm run clean",
     "build": "rollup -c",
     "ci": "npm run test:slow",
